@@ -9,7 +9,7 @@ app.use(cors());
 app.get("/search", async (req, res) => {
     const { query } = req.query;
     const API_KEY =
-    "0bbcb158d90619e07d73a595895bcd845ceb0aea6920a72b8c2ec76c129caece";
+    "";
 
     const URL = "https://serpapi.com/search.json";
 
